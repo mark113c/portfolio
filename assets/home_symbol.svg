@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="43" viewBox="0 0 42 43">
+  <defs>
+    <clipPath id="clip-home_symbol">
+      <rect width="42" height="43"/>
+    </clipPath>
+  </defs>
+  <g id="home_symbol" clip-path="url(#clip-home_symbol)">
+    <path id="Path_18" data-name="Path 18" d="M-3505,8206h40v-24l-20-17-20,17Z" transform="translate(3506 -8164)" fill="#0232ff" stroke="#0232ff" stroke-width="1"/>
+  </g>
+</svg>

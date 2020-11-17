@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1145" height="792"
+  viewBox="0 0 1145 792">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 3584 2022">
+      <image width="3584" height="2022" href="assets/dogg_design.png">
+    </pattern>
+    <filter id="Screenshot_2020-10-20_at_14.39.46" x="36" y="99" width="1074" height="640" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feFlood flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <filter id="Screenshot_2020-10-20_at_14.39.46-2" x="36" y="99" width="1074" height="640"
+      filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur-2" />
+      <feFlood flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur-2" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <clipPath id="clip-web_project">
+      <rect width="1145" height="792" />
+    </clipPath>
+  </defs>
+  <g id="web_project" clip-path="url(#clip-web_project)">
+    <g id="Group_861" data-name="Group 861">
+      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(45 62)" fill="#fff" stroke="#0232ff"
+        stroke-width="4">
+        <rect width="528" height="115" rx="16" stroke="none" />
+        <rect x="2" y="2" width="524" height="111" rx="14" fill="none" />
+      </g>
+      <g id="Group_859" data-name="Group 859" transform="translate(-245 -960)">
+        <g id="Group_845" data-name="Group 845" transform="translate(290 1015)">
+          <g id="Group_1" data-name="Group 1" transform="translate(0 4)">
+            <g transform="matrix(1, 0, 0, 1, -45, -59)" filter="url(#Screenshot_2020-10-20_at_14.39.46)">
+              <g id="Screenshot_2020-10-20_at_14.39.46-3" data-name="Screenshot 2020-10-20 at 14.39.46"
+                transform="translate(45 105)" stroke="#0232ff" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="4" fill="url(#pattern)">
+                <rect width="1056" height="622" rx="24" stroke="none" />
+                <rect x="2" y="2" width="1052" height="618" rx="22" fill="none" />
+              </g>
+            </g>
+          </g>
+          <text id="NAME_OF_PROJECT_" data-name="NAME OF PROJECT " transform="translate(30 17)" font-size="20"
+            font-family="HalyardDisplayMedium, Halyard Display">
+            <tspan x="0" y="22">NAME OF PROJECT </tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_860" data-name="Group 860">
+      <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(549 62)" fill="#fff" stroke="#0232ff"
+        stroke-width="4">
+        <rect width="552" height="115" rx="16" stroke="none" />
+        <rect x="2" y="2" width="548" height="111" rx="14" fill="none" />
+      </g>
+      <g id="Group_859-2" data-name="Group 859" transform="translate(-245 -960)">
+        <g id="Group_845-2" data-name="Group 845" transform="translate(290 1015)">
+          <g id="Group_1-2" data-name="Group 1" transform="translate(0 4)">
+            <g transform="matrix(1, 0, 0, 1, -45, -59)" filter="url(#Screenshot_2020-10-20_at_14.39.46-2)">
+              <g id="Screenshot_2020-10-20_at_14.39.46-4" data-name="Screenshot 2020-10-20 at 14.39.46"
+                transform="translate(45 105)" stroke="#0232ff" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="4" fill="url(#pattern)">
+                <rect width="1056" height="622" rx="24" stroke="none" />
+                <rect x="2" y="2" width="1052" height="618" rx="22" fill="none" />
+              </g>
+            </g>
+          </g>
+          <text id="NAME_OF_PROJECT_2" data-name="NAME OF PROJECT " transform="translate(540 16)" font-size="20"
+            font-family="HalyardDisplayMedium, Halyard Display">
+            <tspan x="0" y="22">NAME OF PROJECT </tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

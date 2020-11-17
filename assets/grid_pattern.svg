@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="8" viewBox="0 0 8 8">
+  <defs>
+    <clipPath id="clip-grid_pattern">
+      <rect width="8" height="8"/>
+    </clipPath>
+  </defs>
+  <g id="grid_pattern" clip-path="url(#clip-grid_pattern)">
+    <rect width="8" height="8" fill="#fefaff"/>
+    <g id="Rectangle_29" data-name="Rectangle 29" fill="none" stroke="#bebebe" stroke-width="0.1">
+      <rect width="8" height="8" stroke="none"/>
+      <rect x="0.05" y="0.05" width="7.9" height="7.9" fill="none"/>
+    </g>
+  </g>
+</svg>
