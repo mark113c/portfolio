@@ -10,12 +10,27 @@
   <body>
     <header>
       <div>
-        <a href="index.html"><img src="assets/home_symbol.svg" /></a>
+        <a href="index.html"><img class="home_icon" src="assets/home_symbol.svg" /></a>
       </div>
+
       <nav>
-        <a href="projects.html"><h3>Projects</h3></a>
-        <a href="about.html"><h3>About</h3></a>
-        <a href="about.html"><h3>CV</h3></a>
+        <div id="burger">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+
+        <ul class="nav-links hide">
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="assets/markus_jorgensen.pdf" target="_blank">CV</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
@@ -34,6 +49,7 @@
     </main>
 
     <footer>
+      <p>&copy; Markus Jørgensen 2020</p>
       <a href="">E-mail</a>
       <a href="">LinkedIn</a>
     </footer>

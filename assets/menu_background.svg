@@ -1,17 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="356" height="55" viewBox="0 0 356 55">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="355" height="55" viewBox="0 0 355 55">
   <defs>
     <clipPath id="clip-menu_background">
-      <rect width="356" height="55"/>
+      <rect width="355" height="55"/>
     </clipPath>
   </defs>
   <g id="menu_background" clip-path="url(#clip-menu_background)">
-    <g id="Rectangle_29" data-name="Rectangle 29" fill="none" stroke="#b2b2b2" stroke-width="0.1">
-      <rect width="8" height="8" stroke="none"/>
-      <rect x="0.05" y="0.05" width="7.9" height="7.9" fill="none"/>
-    </g>
-    <g id="Group_866" data-name="Group 866" transform="translate(-1496 -33)">
-      <g id="Group_844" data-name="Group 844" transform="translate(63 -1)">
-        <path id="Path_19" data-name="Path 19" d="M14,0H341a14,14,0,0,1,14,14V41a14,14,0,0,1-14,14H14A14,14,0,0,1,0,41V14A14,14,0,0,1,14,0Z" transform="translate(1434 34)" fill="#ede8fd"/>
+    <g id="Group_866" data-name="Group 866" transform="translate(-1497 -33)">
+      <g id="Group_844" data-name="Group 844" transform="translate(1497 33)">
+        <path id="Path_19" data-name="Path 19" d="M14,0H341a14,14,0,0,1,14,14V41a14,14,0,0,1-14,14H14A14,14,0,0,1,0,41V14A14,14,0,0,1,14,0Z" fill="#ede8fd"/>
       </g>
       <path id="Path_10" data-name="Path 10" d="M-3038,374h27l45-54h-27Z" transform="translate(4548 -287)" fill="#f8ebff"/>
       <path id="Path_11" data-name="Path 11" d="M-3038,374h27l45-54h-27Z" transform="translate(4602 -287)" fill="#f8ebff"/>

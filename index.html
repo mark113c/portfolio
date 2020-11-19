@@ -6,22 +6,42 @@
     <title>Markus Jørgensen</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/gib1wos.css" />
-    <script src="p5.js"></script>
-    <script src="sketch.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+    <link rel="manifest" href="assets/site.webmanifest" />
   </head>
   <body>
     <header>
       <div>
         <a href="dogs.html"><img class="dog_logo" src="assets/dog.svg" /></a>
       </div>
+
       <nav>
-        <a href="projects.html"><h3>Projects</h3></a>
-        <a href="about.html"><h3>About</h3></a>
-        <a href="assets/markus_jorgensen.pdf" targer="_blank"><h3>CV</h3></a>
+        <div id="burger">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+
+        <ul class="nav-links hide">
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="assets/markus_jorgensen.pdf" target="_blank">CV</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
     <main>
+      <div class="head_container">
+        <div class="head"><img src="assets/head.png" /></div>
+      </div>
       <div class="splash_container">
         <div class="splash_section">
           <h1 class="splash">
@@ -31,12 +51,140 @@
           </h1>
         </div>
         <div class="splash_section">
-          <img src="assets/desktop_browser.png" />
+          <a href="projects.html"><img src="assets/desktop_browser.svg" /></a>
         </div>
         <div class="splash_section mobile_browser">
-          <img src="assets/mobile_browser.png" />
+          <a href="projects.html"> <img src="assets/mobile_browser.svg" /></a>
         </div>
       </div>
+
+      <div class="container">
+        <div class="section_small">
+          <h1>Projects</h1>
+          <h2>Project title</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos nam adipisci maxime corporis cum numquam, quo natus exercitationem nihil unde eveniet iusto quas mollitia sed? Laboriosam perferendis nisi odio at. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. At quo ex, debitis numquam esse in. Exercitationem ad, id obcaecati molestias, asperiores, libero similique quae aspernatur ea eligendi numquam! Velit, tempore.
+          </p>
+          <div class="categories">
+            <div class="blue_box"><p>UX</p></div>
+            <div class="blue_box"><p>UI Design</p></div>
+            <div class="blue_box"><p>Coding</p></div>
+          </div>
+        </div>
+        <div class="section_large">
+          <div class="web_project_container">
+            <div class="top_bar_container">
+              <div class="top_bar1"></div>
+            </div>
+            <div class="window project1">
+              <div class="content project1">
+                <img id="project1_img" src="assets/dogg_design.webp" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="section_small">
+          <h2>Project title</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos nam adipisci maxime corporis cum numquam, quo natus exercitationem nihil unde eveniet iusto quas mollitia sed? Laboriosam perferendis nisi odio at. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. At quo ex, debitis numquam esse in. Exercitationem ad, id obcaecati molestias, asperiores, libero similique quae aspernatur ea eligendi numquam! Velit, tempore.
+          </p>
+        </div>
+        <div class="section_large">
+          <div class="web_project_container">
+            <div class="top_bar_container">
+              <div class="top_bar1"></div>
+              <div class="top_bar2"></div>
+            </div>
+            <div class="window project1">
+              <div class="content project1">
+                <img id="project1_img" src="assets/dogg_design.webp" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="section_small">
+          <h2>Mobile game project 1</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos nam adipisci maxime corporis cum numquam, quo natus exercitationem nihil unde eveniet iusto quas mollitia sed? Laboriosam perferendis nisi odio at. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. At quo ex, debitis numquam esse in. Exercitationem ad, id obcaecati molestias, asperiores, libero similique quae aspernatur ea eligendi numquam! Velit, tempore.
+          </p>
+        </div>
+        <div class="section_large">
+          <div class="mobile_project_container">
+            <div class="mobile_window mobile_project1">
+              <div class="mobile_bar"></div>
+              <div class="slider_button"></div>
+              <div class="content mobile_project1">
+                <img id="project1" src="assets/mobile_project_1_1.webp" />
+                <img id="project1_2_img" src="assets/mobile_project_1_2.webp" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="section_small">
+          <h2>Mobile game project 1</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos nam adipisci maxime corporis cum numquam, quo natus exercitationem nihil unde eveniet iusto quas mollitia sed? Laboriosam perferendis nisi odio at. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. At quo ex, debitis numquam esse in. Exercitationem ad, id obcaecati molestias, asperiores, libero similique quae aspernatur ea eligendi numquam! Velit, tempore.
+          </p>
+        </div>
+        <div class="section_large">
+          <div class="mobile_project_container">
+            <div class="mobile_window mobile_project1">
+              <div class="mobile_bar"></div>
+              <div class="slider_button"></div>
+              <div class="content mobile_project1">
+                <img id="project1" src="assets/mobile_project_1_1.webp" />
+                <img id="project1_2_img" src="assets/mobile_project_1_2.webp" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="section_small">
+          <h2>Mobile game project 1</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos nam adipisci maxime corporis cum numquam, quo natus exercitationem nihil unde eveniet iusto quas mollitia sed? Laboriosam perferendis nisi odio at. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. At quo ex, debitis numquam esse in. Exercitationem ad, id obcaecati molestias, asperiores, libero similique quae aspernatur ea eligendi numquam! Velit, tempore.
+          </p>
+        </div>
+        <div class="section_large">
+          <div class="mobile_project_vert_container">
+            <div class="mobile_window_vert">
+              <div class="content">
+                <img id="mobile_project_1_1" src="assets/mobile_project_1_1.png" />
+                <img id="mobile_project_1_2" src="assets/mobile_project_1_2.png" />
+                <img id="mobile_project_1_3" src="assets/mobile_project_1_3.png" />
+                <img id="mobile_project_1_4" src="assets/mobile_project_1_4.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <section class="divide"></section>
+  
+      <div class="image_grid">
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+        </div>
+      </div>
+
     </main>
 
     <footer></footer>

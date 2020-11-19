@@ -5,8 +5,8 @@ function setup() {
   var canvas = createCanvas(windowWidth, windowHeight);
   noStroke();
   fill(100, 200, 40);
-  img = loadImage("assets/dog.svg");
-  canvas.parent("dog_section");
+  img = loadImage("assets/dog_1.svg");
+  canvas.parent("#dog_section");
 }
 
 function draw() {
