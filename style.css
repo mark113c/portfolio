@@ -27,7 +27,7 @@ h1 {
   font-style: normal;
   font-size: 3rem;
   color: var(--main-color-blue);
-  margin-top: 0;
+  margin: 0;
 }
 
 h2 {
@@ -104,6 +104,20 @@ nav.dogs {
 }
 
 /*  Nav and Burger menu styling */
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-color-blue);
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  opacity: 0;
+  border-radius: 15px;
+}
 
 .nav-links {
   display: flex;
@@ -188,11 +202,13 @@ nav.dogs {
 .splash_container {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 10vh 10vw;
+  grid-row: 2;
+  margin: 5vh 1vw;
 }
 
-.splash_section img {
-  width: 100%;
+.col_bottom {
+  margin-top: 10vh;
+  text-align: right;
 }
 
 .mobile_browser {
@@ -206,16 +222,15 @@ nav.dogs {
   margin: 5vh auto;
 }
 
-h1.splash {
+.splash_container h1 {
+  font-weight: 400;
   font-size: 4rem;
-  text-align: right;
-  line-height: 3.8rem;
+  line-height: 3.2rem;
   margin: 0;
-  margin-bottom: 5vh;
 }
 
 .head {
-  visibility: hidden;
+  display: none;
 }
 
 /* General styling */
@@ -225,6 +240,10 @@ h1.splash {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.container.first {
+  margin-top: 0;
 }
 
 .section_large {
@@ -316,7 +335,7 @@ h1.splash {
 
 .mobile_project_container {
   border: var(--main-color-blue) solid 4px;
-  border-radius: 30px;
+  border-radius: 15px;
   overflow: scroll;
   z-index: 5;
   position: relative;
@@ -367,6 +386,7 @@ h1.splash {
   border: 3px solid var(--main-color-blue);
   border-radius: 10px;
   margin-right: 2vw;
+  margin-bottom: 0.5vw;
 }
 
 .blue_box p {
@@ -474,31 +494,49 @@ h1.splash {
   }
 
   .splash_container {
-    margin: 10vh 15vw;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30% 30%;
+    gap: 0px 0px;
+    grid-template-areas:
+      "col_top col_top col_top ."
+      ". col_bottom col_bottom col_bottom";
   }
 
-  .splash_section img {
-    width: 100%;
-    min-height: 100%;
+  .splash_container h1 {
+    font-size: 6rem;
+    font-weight: 400;
   }
-
-  h1.splash {
-    margin-right: 1vw;
+  .col_bottom {
+    grid-area: col_bottom;
+    text-align: right;
+  }
+  .col_top {
+    grid-area: col_top;
   }
 
   .head {
-    visibility: visible;
-    position: absolute;
-    top: 50vh;
-    right: 0;
+    display: block;
+    position: sticky;
+    top: 0px;
+    right: 0px;
     text-align: right;
+    animation-name: slideIn;
+    animation: slideIn 1s ease-in 0.2s 1 forwards;
   }
 
-  .head_container {
-    position: sticky;
+  @keyframes slideIn {
+    0% {
+      transform: translate(200px);
+    }
+
+    100% {
+      transform: translate(-15px);
+    }
   }
+
+  /* .head_container {
+    position: absolute;
+  } */
 
   .head img {
     transform: rotate(-90deg);
