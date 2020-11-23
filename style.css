@@ -1,5 +1,6 @@
 :root {
   --main-color-blue: #0232ff;
+  --secondary-color-pink: #faebff;
 }
 * {
   box-sizing: border-box;
@@ -78,6 +79,7 @@ nav {
 
 footer {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   padding: 2vw;
   font-size: 0.8rem;
@@ -93,10 +95,12 @@ footer a {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 .dog_logo {
-  width: 35px;
+  width: 50%;
+  max-width: 100px;
 }
 
 nav.dogs {
@@ -105,7 +109,7 @@ nav.dogs {
 
 /*  Nav and Burger menu styling */
 
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: var(--main-color-blue);
   border-radius: 15px;
 }
@@ -117,7 +121,7 @@ nav.dogs {
 ::-webkit-scrollbar-track {
   opacity: 0;
   border-radius: 15px;
-}
+} */
 
 .nav-links {
   display: flex;
@@ -136,6 +140,10 @@ nav.dogs {
   top: 0;
   left: 0;
   transition: 0.4s;
+}
+
+.nav-links .blue_box {
+  margin-top: 5vh;
 }
 
 .nav-links a {
@@ -272,7 +280,7 @@ nav.dogs {
   width: 100%;
   height: 50vh;
   border: #0232ff solid 4px;
-  border-radius: 0 0px 15px 15px;
+  border-radius: 15px;
   overflow-y: scroll;
   z-index: 5;
   border-top-width: 3px;
@@ -387,6 +395,7 @@ nav.dogs {
   border-radius: 10px;
   margin-right: 2vw;
   margin-bottom: 0.5vw;
+  background-color: var(--secondary-color-pink);
 }
 
 .blue_box p {
@@ -413,6 +422,10 @@ nav.dogs {
   grid-column: 1 / 3;
 }
 
+.dogs_text {
+  text-align: center;
+}
+
 @media only screen and (min-width: 600px) {
   ul,
   li {
@@ -429,10 +442,18 @@ nav.dogs {
     width: auto;
     height: auto;
     padding: 1rem;
-    border: #0232ff solid 3px;
-    background-image: url(assets/menu_background.svg);
-    background-size: cover;
     flex-direction: row;
+  }
+
+  .nav-links .blue_box {
+    margin-top: 0;
+    background-color: var(--secondary-color-pink);
+  }
+
+  .blue_box > li > a {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0rem 0.6rem;
   }
 
   .nav-links {
@@ -485,6 +506,9 @@ nav.dogs {
 }
 
 @media only screen and (min-width: 1000px) {
+  .window {
+    height: 60vh;
+  }
   .mobile_browser {
     display: block;
   }
@@ -556,7 +580,7 @@ nav.dogs {
   }
 
   .window {
-    height: 27vw;
+    height: 30vw;
   }
 
   .mobile_project_container {
@@ -573,6 +597,6 @@ nav.dogs {
   }
 
   .window {
-    max-height: 400px;
+    max-height: 500px;
   }
 }
