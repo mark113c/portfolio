@@ -99,8 +99,7 @@ a {
 }
 
 .dog_logo {
-  width: 50%;
-  max-width: 100px;
+  width: 50px;
 }
 
 nav.dogs {
@@ -211,7 +210,7 @@ nav.dogs {
   display: grid;
   grid-template-columns: 1fr;
   grid-row: 2;
-  margin: 5vh 1vw;
+  margin: 5vh 3vw;
 }
 
 .col_bottom {
@@ -239,6 +238,17 @@ nav.dogs {
 
 .head {
   display: none;
+}
+
+.splash_container p {
+  font-family: halyard-display, sans-serif;
+  font-style: normal;
+  font-size: 3rem;
+  color: var(--main-color-blue);
+}
+
+.about-text {
+  margin-right: 2vw;
 }
 
 /* General styling */
@@ -270,8 +280,17 @@ nav.dogs {
   width: 100%;
 }
 
-.categories {
+.categories,
+.links {
   margin: 2vh 0;
+}
+
+.blue_box.link {
+  background-color: var(--main-color-blue);
+}
+
+.blue_box.link p {
+  color: var(--secondary-color-pink);
 }
 
 /*  WEB BROWSER PROJECT STYLING */
@@ -374,6 +393,7 @@ nav.dogs {
   position: relative;
   width: 100%;
   height: 80vh;
+  max-height: 650px;
 }
 
 .mobile_project_vert_container {
@@ -484,6 +504,10 @@ nav.dogs {
     font-weight: 300;
   }
 
+  header {
+    padding: 3vh 3vw;
+  }
+
   .hide {
     display: flex;
   }
@@ -586,6 +610,9 @@ nav.dogs {
   .mobile_project_container {
     max-height: 300px;
     max-width: 620px;
+  }
+  h2 {
+    margin-top: 0;
   }
 }
 
