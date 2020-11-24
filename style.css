@@ -80,8 +80,8 @@ nav {
 footer {
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  padding: 2vw;
+  flex-direction: column;
+  padding: 5vw;
   font-size: 0.8rem;
   font-family: source-code-pro, monospace;
   font-weight: 400;
@@ -89,6 +89,7 @@ footer {
 }
 
 footer a {
+  margin-top: 2vw;
   margin-left: 2vw;
 }
 
@@ -500,7 +501,7 @@ nav.dogs {
     position: inherit;
     /* padding: 0vw; */
     font-size: 1rem;
-    margin: 1vw;
+    margin: 0.2vw;
     font-weight: 300;
   }
 
@@ -526,6 +527,15 @@ nav.dogs {
 
   .blue_box p {
     margin: 0;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+
+  footer a {
+    flex-direction: row;
+    margin-top: 0vw;
   }
 }
 
